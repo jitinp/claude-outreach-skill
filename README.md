@@ -16,7 +16,7 @@ SMARTLEAD_KEY=your_smartlead_api_key_here
 - **Apollo key** — found in your Apollo.io account under API settings
 - **Smartlead key** — found in your Smartlead account under API settings
 
-### 2. Install dependencies
+### 2. Install dependencies (or let claude handle it)
 
 ```bash
 python -m venv venv
@@ -24,9 +24,9 @@ source venv/bin/activate
 pip install requests
 ```
 
-### 3. Start the outreach co-pilot
+### 3. Start the outreach
 
-In Claude Code, run:
+Open Claude Code and run:
 
 ```
 /outreach
